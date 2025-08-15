@@ -4,17 +4,20 @@ channels:
 dependencies:
   - python=3.11
   - nb_conda_kernels
-  - ipykernel         
-  - jupyterlab
   - numpy
   - scipy
-  - pandas
   - matplotlib
-  - scikit-learn
+  - pandas
   - seaborn
+  - jupyterlab
+  - ipykernel         
+  - scikit-learn
   - arviz
+  - emcee
+  - ptemcee
+  - zeus-mcmc
+  - corner
+  - emcee
   - pip
   - pip:
-      - corner
-      - emcee
-      - watermark
+       - watermark
