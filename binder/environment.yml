@@ -11,13 +11,17 @@ dependencies:
   - seaborn
   - jupyterlab
   - ipykernel         
-  - scikit-learn
+  - ipywidgets
+  - nbdime
   - arviz
   - emcee
   - ptemcee
   - zeus-mcmc
+  - numdifftools
   - corner
-  - emcee
+  - scikit-learn
+  - scikit-image
+  - pydoe
   - pip
   - pip:
        - watermark
