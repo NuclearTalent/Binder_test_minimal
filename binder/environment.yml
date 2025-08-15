@@ -1,8 +1,10 @@
-name: lfd
+name: 2025-env
 channels:
   - conda-forge
 dependencies:
   - python=3.11
+  - nb_conda_kernels
+  - ipykernel         
   - jupyterlab
   - numpy
   - scipy
